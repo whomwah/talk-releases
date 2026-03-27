@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Talk Updates</title>
+      <item>
+          <title>Version 1.7.0</title>
+          <sparkle:releaseNotesLink>https://whomwah.github.io/talk-releases/notes/v1.7.0.html</sparkle:releaseNotesLink>
+          <pubDate>Fri, 27 Mar 2026 15:54:52 +0000</pubDate>
+          <sparkle:version>12</sparkle:version>
+          <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+          <enclosure url="https://github.com/whomwah/talk-releases/releases/download/v1.7.0/Talk-1.7.0.dmg" type="application/octet-stream" sparkle:edSignature="b8jkLNImJ8HxKKQwPKY6DOtRtDjigeK7gwga31onuDaCbwNdHOG86wYCE12rykXzisFP/J7vZ1NR50d3U5umAA==" length="18558216" />
+      </item>
+    </channel>
+</rss>

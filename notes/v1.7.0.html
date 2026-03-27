@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #333;
+      padding: 8px 16px;
+      margin: 0;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #ddd; }
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 12px 0 4px;
+    }
+    ul {
+      margin: 4px 0 12px;
+      padding-left: 20px;
+    }
+    li {
+      margin: 2px 0;
+    }
+  </style>
+</head>
+<body>
+<h2>New</h2><ul><li> add pause sensitivity slider to Transcription tab</li><li> session-cached target + serialised paste queue</li><li> detect hardware audio format and resample to 16kHz for VAD</li><li> end-to-end VAD streaming integration</li><li> add ParakeetManager streaming additions</li><li> add VADConfig constants and VADSegmentProcessor</li><li> add talkSegmentReady notification and streaming protocol members</li><li> bundle silero_vad.onnx with parakeet download</li><li> migrate releases to whomwah/talk-releases</li><li> switch Parakeet model download to GitHub releases archive URL</li></ul><h2>Fixed</h2><ul><li> detect AX write success via value-length change</li><li> serialise VAD processing to prevent race conditions</li><li> safe unwrap CGEvent to prevent crashes</li><li> defer window size setup to prevent layout recursion</li><li> scale radial equalizer geometry for 60pt size</li></ul><h2>Other</h2><ul><li>Merge pull request #42 from whomwah/duncan/release-v1.7.0.12</li><li> bump version to 1.7.0 (build 12)</li><li>Merge pull request #38 from whomwah/duncan/issue-32-vad-bundle</li><li> reduce minSilenceDuration to 0.2s</li><li> reduce minSilenceDuration to 0.3s</li><li> add concurrency tests for VAD segment deduplication</li><li>Merge pull request #39 from whomwah/duncan/issue-33-vad-foundation</li><li>Merge pull request #41 from whomwah/duncan/issue-35-vad-integration</li><li> update progress.txt for issue #34</li><li> update progress.txt for issue #33</li><li> add VADConfigTests and VADSegmentProcessorTests</li><li>Merge pull request #37 from whomwah/duncan/migrate-releases-to-talk-releases</li><li>Merge pull request #36 from whomwah/duncan/remove-whisperkit</li><li> remove WhisperKit</li><li>Merge pull request #28 from whomwah/claude/update-model-download-url-1SeZ8</li><li> remove inner ring circle and adjust radius to 10pt</li><li> shrink geometric and radial HUD window sizes</li></ul>
+</body>
+</html>
