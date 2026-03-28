@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #333;
+      padding: 8px 16px;
+      margin: 0;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #ddd; }
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 12px 0 4px;
+    }
+    ul {
+      margin: 4px 0 12px;
+      padding-left: 20px;
+    }
+    li {
+      margin: 2px 0;
+    }
+  </style>
+</head>
+<body>
+<h2>Fixed</h2><ul><li> use xcodebuild archive+export for correct Sparkle signing</li><li> re-sign vendored dylibs with hardened runtime for notarization</li><li> suppress NSRunningApplication Sendable warning</li><li> invalidate orphaned timer on re-entrant startConnectionMonitoring</li><li> flush VAD off main thread; keep HUD until transcription done</li></ul><h2>Other</h2><ul><li> extract release logic to bin/release script</li><li>Merge pull request #44 from whomwah/duncan/developer-id-signing</li><li> disable code signing for test runs</li><li> bump version to 1.8.0 (build 14)</li><li> add notarization and Developer ID cert import</li><li> use Developer ID Application certificate</li><li>Merge pull request #43 from whomwah/duncan/investigate-stuck-hud</li><li> replace labels/progress with dots for all waiting states</li><li> remove Geometric HUD style</li></ul>
+</body>
+</html>
