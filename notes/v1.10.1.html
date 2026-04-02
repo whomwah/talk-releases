@@ -1,34 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-      font-size: 13px;
-      line-height: 1.5;
-      color: #333;
-      padding: 8px 16px;
-      margin: 0;
-    }
-    @media (prefers-color-scheme: dark) {
-      body { color: #ddd; }
-    }
-    h2 {
-      font-size: 14px;
-      font-weight: 600;
-      margin: 12px 0 4px;
-    }
-    ul {
-      margin: 4px 0 12px;
-      padding-left: 20px;
-    }
-    li {
-      margin: 2px 0;
-    }
-  </style>
-</head>
-<body>
-<h2>New</h2><ul><li> add v3 model, use definition as source of truth</li><li> mute system audio output while recording</li><li> mic sensitivity controls (gain + VAD threshold)</li><li> smaller inner circle + compact dots state</li><li> animated blob background w/ peak tracking</li><li> inject UserDefaults + add coordinator/inserter tests</li><li> extract BT connection monitoring into BluetoothConnectionMonitor</li><li> extract AudioLevelProcessor from equalizer views</li><li> split TalkPreferencesView into per-tab files with view models</li><li> decouple TalkRecognizer from ParakeetManager</li><li> extract recording orchestration into RecordingCoordinator</li><li> replace isRecording/isTranscribing/isDrainingVAD with RecordingState enum</li><li> replace singleton access with dependency injection</li><li> customize mic ready sound and reorganize prefs</li><li> add toggle for recording ready audio cue</li></ul><h2>Fixed</h2><ul><li> fix test signing and test host crash</li><li> add volume fallback for HFP devices</li><li> handle A2DP→HFP device switch during recording</li><li> always unmute on restore, recover mute state on wake</li><li> two-phase HUD, VAD pre-roll buffer, remove audio cue</li><li> deleteModel uses injected downloadBase instead of global path</li><li> radial HUD shows dots during active recording</li><li> mark computeTotalDiskUsage nonisolated to silence Swift 6 warning</li><li> reduce flush timeout from 30s to 5s</li><li> show only when mic is ready; recover on wake; add audio cue</li><li> handle engine start failure and add flush timeout</li></ul><h2>Other</h2><ul><li>Merge pull request #63 from whomwah/duncan/release-v1.10.1.18</li><li> bump version to 1.10.1 (build 18)</li><li>Merge pull request #62 from whomwah/duncan/fix-ci-test-signing</li><li> disable signing flags in just test recipe</li><li>Merge pull request #61 from whomwah/claude/fix-issue-60-OBmcv</li><li> disable signing for test target, simplify test command</li><li> add diagnostic logging to vad and audio tap</li><li> bump version to 1.10.0 (build 17)</li><li>Merge pull request #59 from whomwah/duncan/missed-this</li><li>Merge pull request #51 from whomwah/duncan/refactor-architecture</li><li> expand source layout in AGENTS.md</li><li> bump version to 1.9.0 (build 16)</li><li>Merge pull request #58 from whomwah/duncan/reorganise-file-structure</li><li> reorganise source files into logical subfolders</li><li>Merge pull request #57 from whomwah/duncan/refactor-item-8-test-infra</li><li>Merge pull request #56 from whomwah/duncan/refactor-item-7-bt-monitor</li><li>Merge pull request #55 from whomwah/duncan/refactor-item-5-audio-dsp</li><li>Merge pull request #54 from whomwah/duncan/refactor-item-4-prefs-split</li><li>Merge pull request #53 from whomwah/duncan/refactor-item-3-engine-decoupling</li><li>Merge pull request #52 from whomwah/duncan/refactor-item-2-coordinator</li><li>Merge pull request #50 from whomwah/duncan/refactor-item-6-state-machine</li><li>Merge pull request #49 from whomwah/duncan/refactor-item-1-di</li><li>Merge pull request #46 from whomwah/duncan/robustness-ux</li><li> hardcode pause sensitivity to 0.2s</li><li> remove robustness writeup (not for repo)</li><li> add robustness changes writeup</li><li> cover cancel(), resetIfStuck(), and updated HUD policy</li></ul>
-</body>
-</html>
+<html lang='en'><head><meta charset='utf-8'><style>body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+        font-size: 13px; line-height: 1.5; color: #333; padding: 8px 16px; margin: 0; }
+@media (prefers-color-scheme: dark) { body { color: #ddd; } }
+h3 { font-size: 14px; font-weight: 600; margin: 12px 0 4px; }
+ul { margin: 4px 0 12px; padding-left: 20px; }
+li { margin: 2px 0; }
+</style></head><body><p>Bug fixes and improvements.</p>
+</body></html>
