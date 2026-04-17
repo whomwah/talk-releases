@@ -46,5 +46,14 @@
           <enclosure url="https://github.com/whomwah/talk-releases/releases/download/v1.11.0/Talk-1.11.0.dmg" type="application/octet-stream" sparkle:edSignature="T//dBBYo5cPv+EX9VYnQ65CeiPkQYLZNvfPAwKz+1Js/mIJ2Q9u6bHaWqykeJrdhDS2qPMEnMDcAwRu1C57qCA==" length="18377384" />
       </item>
 
+          <item>
+          <title>Version 1.12.0</title>
+          <sparkle:releaseNotesLink>https://whomwah.github.io/talk-releases/notes/v1.12.0.html</sparkle:releaseNotesLink>
+          <pubDate>Fri, 17 Apr 2026 12:10:06 +0000</pubDate>
+          <sparkle:version>21</sparkle:version>
+          <sparkle:shortVersionString>1.12.0</sparkle:shortVersionString>
+          <enclosure url="https://github.com/whomwah/talk-releases/releases/download/v1.12.0/Talk-1.12.0.dmg" type="application/octet-stream" sparkle:edSignature="UhvMgiIShxABw7p/ETbVO9GAMZ0Bi4h18rbuCXF3bTjeMz9rkXei2hGNaNl3zADg0hebxrTNc6pIr/WRZ7GhCw==" length="18384958" />
+      </item>
+
     </channel>
 </rss>
