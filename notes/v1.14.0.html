@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #333;
+      padding: 8px 16px;
+      margin: 0;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #ddd; }
+    }
+    h3 {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 12px 0 4px;
+    }
+    ul {
+      margin: 4px 0 12px;
+      padding-left: 20px;
+    }
+    li {
+      margin: 2px 0;
+    }
+  </style>
+</head>
+<body>
+<h3>Fixed</h3>
+<ul>
+<li>Dictation no longer hangs if the selected model isn't available — Talk now falls back to the next ready model automatically</li>
+<li>Paste no longer blocks forever if a previous insert gets stuck (10-second timeout with a clear error)</li>
+<li>Audio device errors are now caught and logged instead of silently failing</li>
+<li>Auto-update failures are now logged rather than swallowed</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>SwiftLint added to CI and Xcode build phase — keeps code quality consistent going forward</li>
+<li>Internal settings migration runs at launch to keep UserDefaults clean across upgrades</li>
+</ul>
+</body>
+</html>
